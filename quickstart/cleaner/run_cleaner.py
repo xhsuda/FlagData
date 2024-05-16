@@ -4,5 +4,5 @@
 from flagdata.cleaner.text_cleaner import DataCleaner
 # safe importing of main module in multi-processing
 if __name__ == "__main__":
-    cleaner = DataCleaner("flagdata/cleaner/config.yaml")
+    cleaner = DataCleaner("../../flagdata/cleaner/config.yaml")
     cleaner.clean()
